@@ -1,0 +1,35 @@
+{
+    "name": "INS_MV",
+    "title": "In Nomine Satanis / Magna Veritas",
+    "description": "Sistema Para Jugar In Nomine Satanis / Magna Veritas en FoundryVTT",
+    "version": "0.0.1",
+    "templateVersion": 1,
+    "author": "ParvusDomus",
+    "scripts": [
+    ],
+    "esmodules": [
+      "ins.js"
+    ],
+    "styles": [
+    ],
+    "packs": [
+    ],
+    "dependencies": [
+    ],
+    "languages": [
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        }
+    ],
+    "socket": false,
+    "initiative": "1d20",
+    "gridDistance": 10,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "resources.vida",
+    "secondaryTokenAttribute": "resources.poder",
+    "url": "",
+    "manifest": "",
+    "download": ""
+}

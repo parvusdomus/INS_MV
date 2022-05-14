@@ -1,0 +1,49 @@
+{
+"Actor": {
+  "types": ["PJ"],
+  "PJ": {
+    "origen": "angel",
+    "superior": "",
+    "bio": "",
+    "bandeja": "trasera",
+    "equipo": "",
+    "fuerza": 0,
+    "voluntad": 0,
+    "agilidad": 0,
+    "percepcion": 0,
+    "apariencia": 0,
+    "resources": {
+      "vida": {
+        "min": 0,
+        "value": 0,
+        "max": 10
+      },
+      "poder": {
+        "min": 0,
+        "value": 0,
+        "max": 6
+      }
+    }
+  }
+},
+"Item": {
+  "types": ["poder", "ataque", "ventaja", "defecto"],
+  "poder": {
+    "caracteristica": "fuerza",
+    "coste": 0,
+    "acciones": 0,
+    "descripcion": ""
+  },
+  "ataque": {
+    "caracteristica": "fuerza",
+    "dano": 0,
+    "efectos":""
+  },
+  "ventaja": {
+    "descripcion": ""
+  },
+  "desventaja": {
+    "descripcion": ""
+  }
+}
+}
